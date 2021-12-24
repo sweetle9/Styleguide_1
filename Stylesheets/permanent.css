@@ -1,0 +1,70 @@
+a {
+font-family: SuisseIntlRegular;
+text-decoration: none;}
+
+p {
+font-family: SuisseIntlRegular;
+text-decoration: none;
+font-size: 1.36em;
+color: black;
+line-height: 1;}
+
+h1 {
+font-family: SuisseIntlSemiBold;
+text-decoration: none;
+font-size: 3.6em;
+color: black;
+line-height: 1.1;}
+
+h2 {
+font-family: SuisseIntlRegular;
+text-decoration: none;
+font-size: 2.3em;
+color: black;
+line-height: 1.1;
+}
+
+h3 {
+font-family: SuisseIntlSemiBold;
+text-decoration: none;}
+
+/* ___________ МЕНЮ______________ */
+
+.menu {
+  position: fixed;
+  display: block;
+  z-index: 15;
+  width: 80%;
+  height: 9%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  background-color: white;}
+
+.menu a, .menu p  {
+  text-decoration: none;
+  font-family: SuisseIntlRegular;
+  /* font-size: 1.3em; */
+  font-size: 2vh;
+  font-weight: 200;
+  color: black;
+  line-height: 1.2;
+  word-wrap: normal;
+  text-align: center;}
+
+.menu-list {
+  position: relative;
+  width: 92%;
+  display: block;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);}
+
+.menu-list li {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 4%;
+  padding-right: 2.5%;
+  padding-left: 2.5%;}
