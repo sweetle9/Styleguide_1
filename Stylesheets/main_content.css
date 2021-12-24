@@ -1,0 +1,692 @@
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            width: 100%;
+             height: 100%;
+            min-height: 100%;
+          background: white;
+         overflow-y: scroll;
+      overflow-x: hidden;; }
+
+
+
+        .maket {
+           display: block;
+          position: absolute;
+           width: 100%;
+           height: 2400%;
+           /* width: 1440px;
+           height: 2546px;*/
+          /* background: url('../Images/maket1.png') center no-repeat; */
+           z-index: -1;
+           top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;}
+
+         .maket::before {
+           opacity: .3;
+           background: url('../Images/MAKET.png')  center no-repeat;
+           background-size: auto 100% ;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;}
+
+
+
+@font-face {
+  font-family: "SuisseIntlRegular";
+  font-style: normal;
+  src: url("../Fonts/SuisseIntl-Regular.ttf") format("ttf"),
+  url("../Fonts/SuisseIntl-Regular.woff") format("woff"),
+  url("../Fonts/SuisseIntl-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SuisseIntlSemiBold";
+  font-style: normal;
+  src: url("../Fonts/SuisseIntl-SemiBold.ttf") format("ttf"),
+  url("../Fonts/SuisseIntl-SemiBold.woff") format("woff"),
+  url("../Fonts/SuisseIntl-SemiBold.woff2") format("woff2");
+}
+
+
+/* ___________ЛОГОС______________ */
+.logo {
+  position: relative;
+  display: block;
+  width: 76%;
+  height: 16%;
+  padding-top: 10%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  /* background-color: white; */}
+
+.logo img {
+  height: 100%;}
+
+.left-stick , .h , .art , .istory , .right-stick {
+  position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;}
+
+.art {
+  /* opacity: .5;*/
+  padding-left: 10%;
+  padding-right: 10%;}
+
+.h {
+  /* opacity: .5;*/
+  padding-left: 0;
+  padding-right: 0;}
+
+.istory {
+  /* opacity: .5;*/
+  padding-left: 10%;
+  padding-right: 10%;}
+
+/* ___________ 1 ЭКРАН ОБЕРТКА______________ */
+
+.screen-1 {
+  position: relative;
+  display: block;
+  width: 76%;
+  left: 50%;
+  padding-bottom: 20%;
+  margin-right: -50%;
+  transform: translate(-50%);}
+
+/* ___________ 1 ЭКРАН контент______________ */
+
+.screen-1 h1 , .screen-1 p {
+  position: relative;
+  display: block;
+  width: 40%;
+  height: 16%;}
+
+.screen-1 h1 {
+  padding-top: 6%;}
+
+.screen-1 p {
+  padding-top: 0;}
+
+.screen-1 img {
+  height: 80%;}
+
+.graphics {
+  position: absolute;
+  /* height: 300%;  ??? */
+  left: 30%;
+  top: -1%;}
+
+/* ____ 1 ЭКРАН текст______ */
+
+.screen-1 h1 {
+  font-size: 5.8em;
+  color: black;
+  line-height: 1.1;}
+
+.screen-1 p {
+  font-size: 3.2em;
+  color: black;
+  line-height: 1;}
+
+  /* ___________ КОНЦЕПЦИЯ ОБЕРТКА ______________ */
+
+  .concept {
+    position: relative;
+    display: block;
+    width: 76%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);}
+
+  /* ___________ 1 ЭКРАН контент______________ */
+
+.concept h1 , .concept p , .concept h2 , .concept h3 {
+    position: relative;
+    display: block;
+    width: 60%;
+    height: 16%;}
+  .concept p {
+      padding-top: 7%;
+      padding-bottom: 7%;}
+  .artistory {
+    display: block;
+    position: relative;
+    margin-top: -1%;
+  }
+  .artistory h1 {
+    text-align: center;
+    padding-left: 20%;
+  }
+  .artistory p {
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 20%;
+  }
+  .brandchar {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top: 1%;
+  }
+  .brandchar img {
+    width: 100%;
+  }
+  .concept h2 {
+    margin-top: 8.9%;
+    margin-left: 0%;
+  }
+  .values {
+    display: block;
+    position: relative;
+    margin-top: 7.5%;
+  }
+  .values img {
+    width: 100%;
+  }
+  /* ___________ КОНЦЕПЦИЯ logotip ______________ */
+
+  .logotip {
+    position: relative;
+    display: block;
+    width: 76%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+    /* ___________ 1 ЭКРАН logotip______________ */
+  .logotip h1 , .logotip p , .logotip h2 , .logotip h3 {
+      position: relative;
+      display: block;
+      width: 60%;
+      height: 16%;
+    }
+  .logotip p {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-top: 1%;
+  }
+  .logo_white {
+    display: block;
+    position: relative;
+    vertical-align: top;
+  }
+  .logo_white img {
+    display: inline-block;
+    margin-top: 8%;
+    width: 38%;
+    vertical-align: top;
+  }
+  .logo_white p {
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 0;
+    vertical-align: top;
+    padding-top:17%;
+    margin-left:-11%;
+  }
+  .logo_black {
+    display: block;
+    position: relative;
+    vertical-align: top;
+  }
+  .logo_black img {
+    display: inline-block;
+    margin-top: 3%;
+    width: 38%;
+    vertical-align: top;
+  }
+  .logo_black p {
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 0;
+    vertical-align: top;
+    padding-top: 11.5%;
+    margin-left: -11.5%;
+  }
+  .logotip h2 {
+    padding-top: 7%;
+    margin-left: 0%;
+  }
+  .postroenie {
+    display: block;
+    position: relative;
+    vertical-align: top;
+  }
+  .postroenie img {
+    display: inline-block;
+    margin-top: -8%;
+    width: 62.6%;
+    vertical-align: top;
+    padding-left: 6%;
+  }
+  .postroenie p {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 0;
+    vertical-align: top;
+    width: 31%;
+    padding-top: 6%;
+  }
+  h2.ohrana {
+    padding-top:3%;
+  }
+  .pole_img {
+    padding-top: 7%;
+    width: 65%;
+  }
+  .no_no {
+    display: block;
+    position: relative;
+    vertical-align: top;
+  }
+  .no_no img {
+    vertical-align: top;
+    padding: 0;
+  }
+  img.no_rotate {
+    padding-right:15%;
+    padding-top: 10%;
+    width: 22%;
+    vertical-align: top;
+  }
+  img.no_squeeze {
+    padding-top: 11%;
+    width: 25%;
+    vertical-align: top;
+    margin-right:13%;
+  }
+  img.no_color {
+    padding-top: 11%;
+    width: 21%;
+    vertical-align: top;
+    padding-left:3%;
+  }
+  h2.positioning {
+    padding-top:5%;
+  }
+  p.positioning_p {
+    width: 37%;
+    padding-top:6%;
+  }
+  .block_positioning {
+    display: block;
+    position: relative;
+    vertical-align: top;
+  }
+  .block_positioning p {
+    display: inline-block;
+    position: relative;
+    vertical-align:top;
+    width:34%;
+    padding-top:0.5%;
+    margin-right:6.6%;
+    margin-top: 0%;
+  }
+  .block_positioning img {
+    display: inline-block;
+    position:relative;
+    vertical-align: top;
+    width:59%;
+  }
+  p.resolution_1 {
+    text-align: right;
+    margin: 0%;
+    vertical-align:top;
+    padding-top: 1.3%;
+    padding-left: 13%;
+  }
+  .positioning_2 {
+    display: block;
+    position: relative;
+    vertical-align: top;
+  }
+  .positioning_2 img {
+    display: inline-block;
+    position:relative;
+    vertical-align: top;
+    width:39%;
+  }
+  .positioning_2 p {
+    display: inline-block;
+    position: relative;
+    vertical-align:top;
+    width:55%;
+    padding-top:0.5%;
+    margin-left: 2.6%;
+    margin-top: 0%;
+  }
+  p.resolution_2 {
+    text-align:left ;
+    margin: 0%;
+    vertical-align:top;
+    padding-top: 1.3%;
+    padding-left: 0%;
+  }
+  .positioning_3 {
+    display: block;
+    position: relative;
+    vertical-align: top;
+  }
+  .positioning_3 img {
+    display: inline-block;
+    position:relative;
+    vertical-align: top;
+    width:38%;
+  }
+  .positioning_3 p {
+    display: inline-block;
+    position: relative;
+    vertical-align:top;
+    width:55%;
+    padding-top: 7.5%;
+    margin-left: 3.6%;
+    margin-top: 0%;
+  }
+  .positioning_4 {
+    display: block;
+    position: relative;
+    vertical-align: top;
+  }
+  .positioning_4 img {
+    display: inline-block;
+    position:relative;
+    vertical-align: top;
+    width: 40%;
+    padding-top: 8%;
+  }
+  .positioning_4 p {
+    display: inline-block;
+    position: relative;
+    vertical-align:top;
+    width:55%;
+    padding-top: 14.5%;
+    margin-left: 1.6%;
+    margin-top: 0%;
+  }
+  .positioning_5 {
+    display: block;
+    position: relative;
+    vertical-align: top;
+  }
+  .positioning_5 img {
+    display: inline-block;
+    position:relative;
+    vertical-align: top;
+    width: 38%;
+    padding-top: 7%;
+  }
+  .positioning_5 p {
+    display: inline-block;
+    position: relative;
+    vertical-align:top;
+    width:58%;
+    padding-top: 7.5%;
+    margin-left: 3.6%;
+    margin-top: 0%;
+  }
+  /* ___________ КОНЦЕПЦИЯ composition ______________ */
+
+  .composition {
+    position: relative;
+    display: block;
+    width: 76%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+  /* ___________ 1 ЭКРАН composition______________ */
+  .composition h1 , .composition p , .composition h2 , .composition h3 {
+    position: relative;
+    display: block;
+    width: 63%;
+    height: 16%;
+  }
+  .composition h1 {
+  padding-top: 8%;
+  }
+  .composition p {
+  padding-top: 6%;
+  padding-bottom: 7%;
+  margin-top: 1%;
+  }
+  .composition_2 {
+    display: block;
+    position: relative;
+    vertical-align: top;
+  }
+  .composition_2 img {
+    display: inline-block;
+    position:relative;
+    vertical-align: top;
+    width: 63%;
+    padding-top: 5%;
+  }
+  .composition_2 p {
+    display: inline-block;
+    position: relative;
+    vertical-align:top;
+    width:36.6%;
+    padding-top: 5.5%;
+    margin-left: 0%;
+    margin-top: 0%;
+    line-height: 1.3;
+  }
+  img.composition_3 {
+    width: 100%;
+  }
+  /* ___________ КОНЦЕПЦИЯ Типографика ______________ */
+
+  .typography {
+    position: relative;
+    display: block;
+    width: 76%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+  /* ___________ 1 ЭКРАН Типографика______________ */
+  .typography h1 , .typography p , .typography h2 , .typography h3 {
+    position: relative;
+    display: block;
+    width: 63%;
+    height: 16%;
+  }
+  .typography h1 {
+  padding-top: 8%;
+  }
+  .typography p {
+  padding-top: 6%;
+  padding-bottom: 7%;
+  margin-top: 1%;
+  }
+  p.font_104 {
+    font-size: 5.6em;
+    width: 77%;
+    padding-top: 0%;
+    margin-top:-2%;
+  }
+  p.font_55 {
+    font-size: 3em;
+    width: 77%;
+    padding-top: 0%;
+    margin-top: -5%;
+    line-height: 1.25;
+  }
+  p.closer {
+    padding-top:0%;
+    margin-top:0%;
+  }
+  h1.font_semibold_104 {
+    font-size: 5.5em;
+    width: 77%;
+    padding-top: 0%;
+    margin-top: -2%;
+  }
+  h1.font_semibold_65 {
+    font-size: 3.4em;
+    width: 77%;
+    padding-top: 0%;
+  }
+  p.font_41 {
+    font-size: 2.25em;
+    width: 77%;
+    padding-top: 0%;
+    margin-top: 0.6%;
+  }
+  p.font_25 {
+    font-size: 1.35em;
+    width: 77%;
+    padding-top: 0%;
+    margin-top: -5.9%;
+  }
+  /* ___________ КОНЦЕПЦИЯ Графика ______________ */
+  .grafika {
+    position: relative;
+    display: block;
+    width: 76%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+  /* ___________ 1 ЭКРАН Графика______________ */
+
+  .grafika h1 , .grafika p , .grafika h2 , .grafika h3 {
+    position: relative;
+    display: block;
+    width: 63%;
+    height: 16%;
+  }
+  .grafika h1 {
+  padding-top: 1%;
+  }
+  .grafika h2 {
+  padding-top: 6%;
+  }
+  .grafika p {
+  padding-top: 6%;
+  padding-bottom: 7%;
+  margin-top: 1%;
+  width: 37%;
+  }
+  .black_circle {
+    text-align: center;
+    vertical-align: top;
+    padding-left: 37.6%;
+    margin-top: -14.5%;
+    width: 25%;
+  }
+  img.art_about {
+    width: 100%;
+    padding-top: 1.6%;
+  }
+  .learning {
+    display: block;
+    position: relative;
+    vertical-align: top;
+  }
+  .learning img {
+    vertical-align: top;
+    padding: 0;
+  }
+  img.left_learning {
+    padding-right:12%;
+    padding-top: 12.6%;
+    width: 13%;
+    vertical-align: top;
+  }
+  img.center_learning {
+    padding-top: 0%;
+    width: 49%;
+    vertical-align: top;
+    margin-right: -7.8%;
+    margin-top:-1%;
+  }
+  img.right_learning {
+    padding-top: 12.6%;
+    width: 20%;
+    vertical-align: top;
+    padding-left:13%;
+  }
+  p.learning_41 {
+    font-size: 2.24em;
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 31.3%;
+  }
+  h2.different {
+    margin-top:-6.5%;
+  }
+  p.longer {
+    width:46%;
+  }
+  img.stuki {
+    width: 68%;
+  }
+  /* ___________ КОНЦЕПЦИЯ Подбор ______________ */
+  .picking {
+    position: relative;
+    display: block;
+    width: 76%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+  /* ___________ 1 ЭКРАН Подбор______________ */
+
+  .picking h1 , .picking p , .picking h2 , .picking h3 {
+    position: relative;
+    display: block;
+    width: 63%;
+    height: 16%;
+  }
+  .picking h1 {
+  padding-top: 8%;
+  }
+  .picking h2 {
+  padding-top: 6%;
+  }
+  .picking p {
+  padding-top: 6%;
+  padding-bottom: 7%;
+  margin-top: 1%;
+  width: 60%;
+  }
+  p.mense {
+    margin-top:0%;
+    padding-top:0%;
+  }
+  .picking_gama {
+    width: 100%;
+  }
+  /* ___________ КОНЦЕПЦИЯ Мерчик ______________ */
+  .merchik {
+    position: relative;
+    display: block;
+    width: 76%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+  /* ___________ 1 ЭКРАН Мерчик______________ */
+  .merchik h1 , .merchik p , .merchik h2 , .merchik h3 {
+    position: relative;
+    display: block;
+    width: 63%;
+    height: 16%;
+  }
+  .merchik h1 {
+  padding-top: 10%;
+  }
+  .merchik img {
+    padding-top: 8%;
+    width: 100%;
+  }
