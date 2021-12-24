@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "SuisseIntlRegular";
+  font-style: normal;
+  src: url("../Fonts/SuisseIntl-Regular.ttf") format("ttf"),
+  url("../Fonts/SuisseIntl-Regular.woff") format("woff"),
+  url("../Fonts/SuisseIntl-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SuisseIntlSemiBold";
+  font-style: normal;
+  src: url("../Fonts/SuisseIntl-SemiBold.ttf") format("ttf"),
+  url("../Fonts/SuisseIntl-SemiBold.woff") format("woff"),
+  url("../Fonts/SuisseIntl-SemiBold.woff2") format("woff2");
+}
