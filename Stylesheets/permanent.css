@@ -34,11 +34,12 @@ text-decoration: none;}
   position: fixed;
   display: block;
   z-index: 15;
-  width: 80%;
-  height: 9%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%);
+  width: 100%;
+  height: 11%;
+  text-align: center;
+  /* left: 50%; */
+  /* margin-right: -50%;
+  transform: translate(-50%); */
   background-color: white;}
 
 .menu a, .menu p  {
@@ -50,21 +51,34 @@ text-decoration: none;}
   color: black;
   line-height: 1.2;
   word-wrap: normal;
+  vertical-align: top;
   text-align: center;}
 
 .menu-list {
   position: relative;
-  width: 92%;
+  width: 100%;
   display: block;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%);}
+  text-align: center;
+  vertical-align: top;
+}
 
 .menu-list li {
   list-style: none;
   position: relative;
   display: inline-block;
   vertical-align: top;
-  padding-top: 4%;
-  padding-right: 2.5%;
-  padding-left: 2.5%;}
+  padding-top: 3%;
+  padding-right: 2.76%;
+  padding-left: 2.76%;}
+  li.first {
+    padding-left: 0;
+  }
+  a.first_a {
+    padding-left: 0;
+  }
+  li.last {
+    padding-right: 0;
+  }
+  a.last_a {
+    padding-right: 0;
+  }
